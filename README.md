@@ -1,0 +1,1 @@
+Ссылка на прочтения: https://www.ncbi.nlm.nih.gov/sra/SRX11379711[accn]
