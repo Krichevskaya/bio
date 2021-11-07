@@ -5,11 +5,11 @@
 Результат работы программы: 
 
 ```
-106729 + 0 in total (QC-passed reads + QC-failed reads)
-6196 + 0 secondary
-5723 + 0 supplementary
+105025 + 0 in total (QC-passed reads + QC-failed reads)
+5677 + 0 secondary
+4538 + 0 supplementary
 0 + 0 duplicates
-86682 + 0 mapped (81.22% : N/A)
+84717 + 0 mapped (80.66% : N/A)
 0 + 0 paired in sequencing
 0 + 0 read1
 0 + 0 read2
@@ -62,6 +62,33 @@ Hola world!
 Исходный код представлен в файле ```pipelines/pipeline.nf```, результатом работы программы являются два файла ```report.html``` и ```graph.png```.
 
 
+### Третье задание: 
+
+Код пайплайна лежит в файле ```3/pipeline.nf```
+Запуск пайплайна ```./nextflow 3/pipeline.nf```
+Вывод при запуске пайплайна:
+
+```
+N E X T F L O W  ~  version 21.04.3
+Launching `pipeline.nf` [pedantic_kirch] - revision: 92412f66a9
+executor >  local (5)
+[8a/783487] process > fastqc     [100%] 1 of 1 ✔
+[f4/333396] process > minimap    [100%] 1 of 1 ✔
+[6b/63ef70] process > minimap2   [100%] 1 of 1 ✔
+[38/6782bf] process > samtools   [100%] 1 of 1 ✔
+[b4/849b62] process > evaluation [100%] 1 of 1 ✔
+Not OK
+Completed at: 07-Nov-2021 21:00:46
+Duration    : 4m 58s
+CPU hours   : 0.1
+Succeeded   : 5
+```
+
+Визуализация:
+
+<p align="center">
+  <img src="https://github.com/Krichevskaya/bio/blob/master/3/graph.png">
+</p>
 
 
 
