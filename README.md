@@ -16,22 +16,22 @@
 
 В выбранном ПО wireframe является дефолтной визуализацией, при этом имея название Lines.
 
-![wireframe img]()
+![wireframe img](https://github.com/Krichevskaya/bio/blob/master/Assignment_5/wireframes.jpg)
 
 ### Backbone
 
 Цветовая раскраска Structure, визуализация NewCartoon
 
-![backbone img]()
+![backbone img](https://github.com/Krichevskaya/bio/blob/master/Assignment_5/backbone.jpg)
 
-### Spacefill
+### CPK
 
-![backbone img]()
+![backbone img](https://github.com/Krichevskaya/bio/blob/master/Assignment_5/cpk.jpg)
 
 ### Ribbons
 
-![backbone img]()
+![backbone img](https://github.com/Krichevskaya/bio/blob/master/Assignment_5/ribbons.jpg)
 
 ### Molecular surface 
 
-![backbone img]()
+![backbone img](https://github.com/Krichevskaya/bio/blob/master/Assignment_5/surface.jpg)
